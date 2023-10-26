@@ -1,0 +1,787 @@
+.main {
+  background-color: #f5f4f4;
+  width: 150%;
+  height: 170%;
+}
+
+.text {
+  position: absolute;
+  font-size: 25px;
+  top: 26px;
+  left: 283px;
+  width: 38px;
+  height: 33px;
+  text-align: left;
+  font: normal normal 600 25px/33px Montserrat;
+  letter-spacing: 0px;
+  color: #252b3b;
+  opacity: 1;
+}
+
+
+.inputtype3 {
+  margin-left: 300px;
+  width: 45%;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: 0px;
+  background-color: #eceaea;
+  display: inline;
+}
+
+.query {
+  margin-top: -15px;
+  margin-right: 450px;
+  color: #252B3B;
+}
+
+.fa-magnifying-glass {
+  margin-right: 740px;
+  font-size: 20px;
+  margin-top: 22px;
+}
+
+.user {
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 390px;
+  margin-top: 20px;
+  border: 0;
+  background-color: white;
+  display: flex;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  background-color: #eceaea;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.fa-user {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.login {
+  margin-left: 10px;
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.fa-2xl .icon {
+  padding-left: 30px;
+  font-size: 100px;
+}
+
+.nav2 {
+  margin-right: 15px;
+  color: black;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 17px;
+  margin-left: 20px;
+margin-bottom: -15px;
+}
+
+.nav2:hover {
+  color: orange;
+  transition: 3s;
+}
+
+.part3 {
+  width: 98%;
+  height: 2px;
+  background-color: #e8e8e8;
+  margin-left: 20px;
+}
+
+.inputtype4 {
+  margin-top: 20px;
+  width: 30%;
+  height: 40px;
+  border-radius: 50px;
+  border: 0px;
+  margin-left: 35px;
+  background-color: hsl(0, 5%, 92%);
+}
+
+.query1 {
+  margin-top: -20px;
+  margin-right: 300px;
+  color:#252B3B ;
+  margin-bottom: 30px;
+  
+}
+
+.icon2{
+  margin-left: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.part4 {
+  display: flex;
+}
+
+.sorting {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.naming {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+}
+
+.find {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 450px;
+}
+
+.slash {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.create {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.block {
+  width: 95%;
+  height: 40%;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.block2 {
+  width: 95%;
+  height: 39%;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.term {
+  padding-left: 25px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+.column1 {
+  display: flex;
+}
+
+.data {
+  padding-left: 25px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.count {
+  margin-left: 110px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.underline {
+  width: 200px;
+  height: 2px;
+  background-color: #e8e8e8;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top:-13px;
+}
+
+.data {
+  display: flex;
+}
+
+.text1 {
+  text-align: center;
+}
+
+.number {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 100px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.number1 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 65px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.number2 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 100px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.number3 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 60px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.number3 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 60px;
+  border-radius: 10px;
+  display: inline;
+}
+.number4 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 60px;
+  border-radius: 10px;
+  display: inline;
+}
+.number5 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 110px;
+  border-radius: 10px;
+  display: inline;
+}
+.number6 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 120px;
+  border-radius: 10px;
+  display: inline;
+}
+.number7 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 50px;
+  border-radius: 10px;
+  display: inline;
+}
+.number8 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 75px;
+  border-radius: 10px;
+  display: inline;
+}
+.number9 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 35px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.number10 {
+  width: 45px;
+  height: 20px;
+  background-color: #fdf4e8;
+  margin-left: 55px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.hori-line {
+  width: 1px;
+  height: 310px;
+  background-color: gainsboro;
+  margin-top: 95px;
+  margin-left: 20px;
+}
+
+.data2 {
+  margin-top: 60px;
+}
+
+.data4 {
+  width: 100px;
+  height: 400px;
+  background-color: white;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.bar {
+  width: 40px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.image {
+  padding-left: 50px;
+  top: 18px;
+left: 82px;
+width: 105px;
+height: 39px;
+opacity: 1;
+}
+
+.image .company {
+  width: 170px;
+  height: 90px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+.fa-bars {
+  font-size: 30px;
+  margin-top: 2px;
+}
+
+
+.dropdown button {
+  background-color: white;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 12px 18px 3px;
+  font-weight: 500;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.dropdown .content {
+  background-color: white;
+  position: absolute;
+  min-width: 100px;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.hov:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+
+.ho1:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho2:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho3:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho4:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+.dropdown1 button {
+  background-color: white;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 250px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.dropdown1 a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 17px 5px;
+  font-weight: 400;
+}
+
+.dropdown1 .content {
+  background-color: white;
+  position: absolute;
+  min-width: 100px;
+}
+
+.dropdown1:hover .content {
+  display: block;
+}
+
+.hov:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+
+.ho1:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #252b3b;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho2:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho3:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho4:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+.dropdown2 button {
+  background-color: white;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 140px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  font-weight: 400;
+}
+
+.dropdown2 a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 18px 5px;
+  font-weight: 400;
+}
+
+.dropdown2 .content {
+  background-color: white;
+  position: absolute;
+  min-width: 100px;
+}
+
+.dropdown2:hover .content {
+  display: block;
+}
+
+.hov:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+
+.ho1:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho2:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho3:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho4:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+.dropdown3 button {
+  background-color: white;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 190px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.dropdown3 a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 18px 5px;
+  font-weight: 400;
+}
+
+.dropdown3 .content {
+  background-color: white;
+  position: absolute;
+  min-width: 100px;
+}
+
+.dropdown3:hover .content {
+  display: block;
+}
+
+.hov:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+
+.ho1:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho2:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho3:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.ho4:hover {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+.fa-caret-down {
+  margin-left: 135px;
+  font-size: 20px;
+}
+
+.but {
+  margin-left: 175px;
+  font-size: 20px;
+}
+
+.fa-regular {
+  font-size: 50px;
+  color: black;
+}
+
+.fa-arrow-down-arrow-up{
+font-size: 40px;
+  color: black;
+}
+
+.img1{
+  width: 20px;
+  height: 20px;
+  color:#f5f4f4 ;
+  margin-top: 23px;
+  margin-left: 30px;
+}
+
+
+.img2{
+  width: 20px;
+  height: 20px;
+  color:#f5f4f4 ;
+  margin-left: 30px;
+}
+
+.navbar-nav{
+  color: black;
+}
+
+.slide{
+  background-color: white;
+   width: 250px; 
+   height:1000;
+}
+
+.head{
+  display: flex;
+}
+
+.block1{
+  display: flex;
+}
+
+.cart{
+  margin-left: 100px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cart1 {
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+.side{
+  width: 80px;
+  height: 800px; 
+  background-color: white;
+  margin-top: 230px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.Directory{
+  top: 268px;
+left: 1861px;
+width: 13px;
+height: 794px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 14px/31px Montserrat;
+letter-spacing: 0px;
+color: #252B3B;
+opacity: 1;
+}
+
+.word{
+  top: 268px;
+left: 1878px;
+width: 31px;
+height: 794px;
+text-align: left;
+font: normal normal normal 14px/31px Montserrat;
+letter-spacing: 0px;
+color: #252B3B;
+opacity: 0.7;
+margin-left: 10px;
+}
+
+

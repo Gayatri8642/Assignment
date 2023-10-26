@@ -1,0 +1,942 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <title>project</title>
+  <link rel="stylesheet" href="assign.css">
+</head>
+
+<body>
+
+  <section class="main">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- part1 -->
+        
+        <div class="col-2 slide">
+          <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+            <div class="image">
+              <img class="company"
+                src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_44f20f1217a84d18f114424bc5c4a7ad/infollion.png">
+            </div>
+          </div>
+
+          <!-- dropdown1 -->
+          <div class="dropdown">
+            <button>Manage
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
+            </button>
+            <div class="content">
+              <a class="hov" href="">Moderate</a>
+              <a class="ho1" href="">Tag</a>
+              <a class="ho2" href="">Compilance</a>
+              <a class="ho3" href="">Payments</a>
+              <a class="ho4" href="">Advance Setting</a>
+            </div>
+          </div>
+
+          <!-- dropdown2 -->
+
+          <div class="dropdown1">
+            <button>Users
+              <i class="fa-solid fa-caret-down fa-2xl cart1"></i>
+            </button>
+            <div class="content">
+              <a class="hov" href="">Admin</a>
+              <a class="ho1" href="">Client</a>
+              <a class="ho2" href="">Conatct</a>
+            </div>
+          </div>
+
+          <!-- dropdown3 -->
+
+          <div class="dropdown2">
+            <button class="eng" style="display: flex;">Engagements
+              <i class="fa-solid fa-caret-down fa-2xl cart"></i>
+            </button>
+            <div class="content">
+              <a class="hov" href="">Projects</a>
+              <a class="ho1" href="">Calls</a>
+              <a class="ho2" href="">Compilance</a>
+              <a class="ho3" href="">Calendar</a>
+
+            </div>
+          </div>
+
+          <!-- dropdown4 -->
+
+          <div class="dropdown3">
+            <button>Experts
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
+            </button>
+            <div class="content">
+              <a class="hov" href="">Expert Search</a>
+              <a class="ho1" href="">Value Chain</a>
+            </div>
+          </div>
+      </div>
+
+      <!-- part2 -->
+
+        <div class="col-10">
+          <div class="head">
+            <p class="text">Tag</p>
+            <button class="inputtype3" type="email" placeholder="  Search By Name , Expertise, Status ">
+              <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+              <P class="query"> Search By Name , Expertise, Status </P>
+            </button>
+
+            <button class="user">
+              <div class="logo"> <i class="fa-solid fa-user fa-2xl"></i> <i
+                  class="fa-solid fa-caret-down fa-2xl icon1"></i></div>
+              <p class="login"> Vijay Sharma</p>
+            </button>
+
+
+          </div>
+
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid navstyle">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul type="none" class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Domains.html">
+                      <div class="nav2">Domains</div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Functions.html">
+                      <div class="nav2">Functions</div>
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Tier Hierachy.html">
+                      <div class="nav2">Tier Hierachy</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- line -->
+
+          <div class=" part3"></div>
+
+          <!-- Search -->
+          <div class="part4">
+            <button class="inputtype4" type="email" placeholder="  Search tree by name ">
+              <i class="fa-solid fa-magnifying-glass fa-2xl icon2"></i>
+              <div class="query1"> Search tree by name</div>
+            </button>
+            <div class="sorting">Sort by:</div>
+            <div class="naming">Domain Tree Name
+            </div>
+            <img class="img1"
+              src="data:image/png;base64,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">
+            <div class="slash">|</div>
+            <div class="create">Created On
+              <img class="img2"
+                src="data:image/png;base64,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">
+
+            </div>
+            <div class="find">Find & Replace</div>
+          </div>
+
+          <!-- Block -->
+          <div class="block1">
+            <div class="Block">
+              <div class="data1">
+                <p class="term">Term A Functions</p>
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="data3"></div>
+          </div>
+
+          <!-- block1 -->
+
+          <div class="block1">
+            <div class="Block2">
+              <div class="data1">
+                <p class="term">Term A Functions</p>
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data1"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <!-- data -->
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <!-- data -->
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hori-line"></div>
+              <div class="data2">
+                <div class="column1">
+                  <p class="data"> Words</p>
+                  <p class="count">Count</p>
+                </div>
+                <div class="underline"></div>
+                <!-- data -->
+                <div class="data">Abend <div class="number">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Abstraction <div class="number1">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data">Access <div class="number2">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Access Point <div class="number3">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Accessibility <div class="number4">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">ACID <div class="number5">
+                    <P class="text1">83</P>
+                  </div>
+                </div>
+                <div class="data">ACL <div class="number6">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+                <div class="data">Activation Key <div class="number7">
+                    <P class="text1">90</P>
+                  </div>
+                </div>
+                <div class="data">Active Cell <div class="number8">
+                    <P class="text1">47</P>
+                  </div>
+                </div>
+                <div class="data"> Active Directory <div class="number9">
+                    <P class="text1">53</P>
+                  </div>
+                </div>
+                <div class="data">Active-Matrix<div class="number10">
+                    <P class="text1">63</P>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="side">
+          <p class="Directory">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+          <P class="word">(120) (160) (55) (210) (120) (160) (55) (210) (120) (160) (55) (210) (120) (160) (55) (210) (120) (160) (55) (210) (120) (160) (55) (210) (120) (160)</P>
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
